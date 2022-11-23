@@ -108,8 +108,6 @@ class AddSimpleProduct implements DataPatchInterface
         SourceItemsSaveInterface $sourceItemsSaveInterface,
         CategoryLinkManagementInterface $categoryLink,
         CategoryCollectionFactory $categoryCollectionFactory
-
-
     ) {
         $this->appState = $appState;
         $this->productInterfaceFactory = $productInterfaceFactory;
@@ -120,7 +118,6 @@ class AddSimpleProduct implements DataPatchInterface
         $this->sourceItemsSaveInterface = $sourceItemsSaveInterface;
         $this->categoryLink = $categoryLink;
         $this->categoryCollectionFactory = $categoryCollectionFactory;
-
     }
 
     /**

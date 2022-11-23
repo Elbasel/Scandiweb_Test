@@ -81,6 +81,11 @@ class AddSimpleProduct implements DataPatchInterface
     protected CategoryCollectionFactory $categoryCollectionFactory;
 
     /**
+     * @var CategoryLinkManagementInterface
+     */
+    protected CategoryLinkManagementInterface $categoryLink;
+
+    /**
      * Migration patch constructor.
      *
      * @param ProductInterfaceFactory $productInterfaceFactory

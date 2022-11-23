@@ -2,7 +2,8 @@
 /**
  * @category    Scandiweb
  * @package     Scandiweb_Test
- * @author      Abdelrahman Elbasel
+ * @author      Abdelrahman Elbasel <info@scandiweb.com>
+ * @license     http://opensource.org/licenses/OSL-3.0 The Open Software License 3.0 (OSL-3.0)
  */
 
 namespace Scandiweb\Test\Setup\Patch\Data;
